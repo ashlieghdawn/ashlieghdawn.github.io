@@ -118,7 +118,9 @@ body.fade-out {
 }
 
 /* Slideshow Styling */
-
+#Slideshow_Background {
+  background:rgba(255,255,255, .05); /* This creates a slightly transparent white background that's placed over the video */
+  }
 
 
 .mySlides {
@@ -259,7 +261,7 @@ body.fade-out {
 }
 
 .Row:after { /* This inserts something after the content of selected elements */
-	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
+	content: ""; /* By leaving this blank, it's allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
 }
